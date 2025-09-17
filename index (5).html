@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aiden To • Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="assets/favicon.ico"/>
+</head>
+<body>
+  <!-- Animated Gradient Background -->
+  <div class="animated-bg"></div>
+  
+  <!-- Header / Hero Section -->
+  <header>
+    <div class="hero-content">
+      <h1>
+        <span id="typed-text"></span>
+        <span class="cursor">|</span>
+      </h1>
+      <p class="tagline">G12 student @ St Mary’s High School, Kitchener • Frontend Developer</p>
+      <div class="social-links">
+        <a href="https://github.com/aidentoe" target="_blank"><img src="assets/github.svg" alt="GitHub"/></a>
+        <a href="https://www.instagram.com/aiden.toe?igsh=b3R1bDUweWt2bTBj" target="_blank"><img src="assets/instagram.svg" alt="Instagram"/></a>
+        <a href="https://www.linkedin.com/in/aiden-to-898335367" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn"/></a>
+      </div>
+      <button id="theme-toggle">🌙 Toggle Theme</button>
+    </div>
+  </header>
+  
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m <strong>Aiden To</strong>, a grade 12 student at St Mary’s High School in Kitchener. As a passionate frontend developer, I love bringing creative ideas to life on the web. My interests range from designing beautiful user interfaces to exploring backend technologies, and I’m always experimenting with new trends and features. Outside of coding, I enjoy learning about design, discovering cool tech, and building projects that make everyday life a bit more fun.
+    </p>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-list">
+      <div class="project-card">
+        <h3>EcoSnap</h3>
+        <p>An interactive web app that helps users track and improve their environmental habits through fun challenges and daily eco-friendly goals.</p>
+        <div class="project-tech">HTML • CSS • JS</div>
+        <a href="https://aidentoe.github.io/EcoSnap/" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Nexus (Fake Website)</h3>
+        <p>A creative concept site showcasing modern UI/UX techniques, built to experiment with web design trends and frontend effects.</p>
+        <div class="project-tech">HTML • CSS • JS</div>
+        <a href="https://aidentoe.github.io/fakewebsite/" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C</li>
+      <li>SQL</li>
+      <li>Python</li>
+    </ul>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-methods">
+      <a href="mailto:aidtoe@gmail.com"><strong>Email:</strong> aidtoe@gmail.com</a><br/>
+      <span><strong>Phone:</strong> 226-988-4436</span>
+      <div class="contact-social">
+        <a href="https://github.com/aidentoe" target="_blank">GitHub</a> •
+        <a href="https://www.instagram.com/aiden.toe?igsh=b3R1bDUweWt2bTBj" target="_blank">Instagram</a> •
+        <a href="https://www.linkedin.com/in/aiden-to-898335367" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <span id="form-status"></span>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aiden To • Portfolio. Made with ❤️</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
