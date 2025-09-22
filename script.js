@@ -5,7 +5,7 @@ const phrases = [
   "Aiden To",
   "Frontend Developer",
   "Web Designer",
-  "Creative Coder",
+  "Professional Valorant Player",
   "Student @ St Mary’s"
 ];
 let phraseIdx = 0, charIdx = 0, typing = true;
